@@ -109,7 +109,7 @@ export default function NotesListingScreen({ onNotePress }: Props) {
       ]}
     >
       <View style={styles.header}>
-        <Text style={[styles.headerTitle, themeStyles.text]}>My Notes</Text>
+        <Text style={[styles.headerTitle, themeStyles.text]}>Notes</Text>
 
         <View style={styles.switchRow}>
           <Text style={themeStyles.subText}>
