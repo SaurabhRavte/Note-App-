@@ -1,17 +1,16 @@
+import React from "react";
 import { StyleSheet, Text, View } from "react-native";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
 
-export default function Index() {
+const NoteAppScreen = () => {
+  const insets = useSafeAreaInsets();
   return (
-    <View style={styles.container}>
-      <Text>Edit src/app/index.tsx to edit this screen.</Text>
+    <View style={{ paddingTop: insets.top, paddingBottom: insets.bottom }}>
+      <Text>NoteAppScreen</Text>
     </View>
   );
-}
+};
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});
+export default NoteAppScreen;
+
+const styles = StyleSheet.create({});
