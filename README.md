@@ -8,6 +8,10 @@ A clean and responsive Notes App UI built using React Native and Expo.
 ![ScreenLight Text](./assets/noteScreenLight.png)
 ![EditorPage Text](./assets/editorScreen.png)
 
+## Demo Video
+
+▶️ [Watch Demo Video](https://youtube.com/shorts/MoxilS9bbUQ)
+
 ## Features
 
 - Notes listing screen using `FlatList`
